@@ -3,8 +3,8 @@ import React from 'react'
 function About() {
   return (
     <>
-    <div className='w-full font-["Neue_Montreal"] p-20 rounded-tr-3xl rounded-tl-3xl bg-[#cdea68] text-black'>
-        <h1 className='font-["Neue_Montreal"] text-[4vw] leading-[3.5vw] tracking-tight '>Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
+    <div className='w-full font-Neue-Montreal p-20 rounded-tr-3xl rounded-tl-3xl bg-[#cdea68] text-black'>
+        <h1 className='font-Neue-Montreal text-[4vw] leading-[3.5vw] tracking-tight '>Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
         <div className='w-full mt-20 flex gap-5 border-t-[1px] pt-10 border-[#95a658]'>
             <div className='w-1/2'>
                 <h1 className='text-7xl '>Our approach :</h1>

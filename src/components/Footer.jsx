@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <div className='w-full h-screen flex gap-5 bg-zinc-900 p-20 font-["Tex_Gyre_Adventor"]'>
+    <div className='w-full h-screen flex gap-5 bg-zinc-900 p-20 font-TexGyreAdventor'>
         <div className='w-1/2 h-full flex flex-col justify-between '>
             <div className='headings'>
             <h1 className='font-semibold uppercase text-[7vw] -mb-4 leading-none'>Eye-</h1>
@@ -21,7 +21,7 @@ function Footer() {
         <h1 className='font-semibold uppercase text-[5vw] -mb-4 leading-none'>Presentation</h1>
         <div className='dets mt-20'>
         {["Instagram", "Behance", "Facebook", "Linkden"].map((item, index)=>(
-            <a className='block text-xl  font-["Neue_Montreal"]' key={index}  href="#">{item}</a>
+            <a className='block text-xl  font-Neue-Montreal' key={index}  href="#">{item}</a>
         ))}
         </div>
         </div>

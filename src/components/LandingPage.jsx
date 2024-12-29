@@ -16,12 +16,12 @@ function LandingPage() {
                 animate={{width:"9vw"}}
                 transition={{ease:[0.83, 0, 0.17, 1], duration: 1}}
                  className=' mr-5 w-[8vw] rounded-md h-[5.6vw] relative -top-[1vw] bg-red-500'></motion.div>)}
-            <h1 key={index} className='uppercase leading-[7vw] relative -top-[1vw] tracking-tighter text-[7.5vw] font-["Tex_Gyre_Adventor"] font-semibold'>{item}</h1>
+            <h1 key={index} className='uppercase leading-[7vw] relative -top-[1vw] tracking-tighter text-[7.5vw] font-TexGyreAdventor font-semibold'>{item}</h1>
               </div>
         </div>
           )})}
         </div>
-        <div className='border-t-[1px] border-zinc-800 mt-20 flex justify-between items-center font-["Neue_Montreal"] py-5 px-20'>
+        <div className='border-t-[1px] border-zinc-800 mt-20 flex justify-between items-center font-Neue-Montreal py-5 px-20'>
           {["For public and private companies", "From the first pitch to IPO"].map((item,index)=>(
             <p key={index} className='font-light text-md tracking-tight leading-none '>{item}</p>
           ))}
